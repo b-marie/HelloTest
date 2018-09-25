@@ -7,7 +7,7 @@ namespace HelloTest
         static void Main(string[] args)
         {
             Random randomNumber = new Random();
-            int randNum = randomNumber.Next(1, 100);
+            int randNum = randomNumber.Next(1, 101);
             Console.WriteLine("Please pick a number between 1 and 100");
             int userChoice = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Your choice was " + userChoice);
